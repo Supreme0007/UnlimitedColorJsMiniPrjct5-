@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            background-color: #414141;
+            color: white;
+        }
+        
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* flex-direction: column; */
+        }
+
+        .btnCon{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        #start{
+            padding: 8px 10px;
+            border-radius: 8px;
+            color: white;
+            background-color: black;
+            margin-top: 20px;
+            margin-left: 500px;
+        }
+
+        #stop{
+            padding: 8px 10px;
+            border-radius: 8px;
+            color: white;
+            background-color: black;
+            margin-top: 20px;
+            margin-right: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Start Should Change the Background Color Every Second.</h1>
+        
+    </div>
+    <div class="btnCon">
+        <button id="start">START</button>
+        <button id="stop">STOP</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
